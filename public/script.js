@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'about I am a Designer, Developer, and computer enthusiast based in Melbourne, Australia. I studied digital media at RMIT, specialising in frontend development, computer architecture and as a side subject in my final year, I elected to study cybersecurity. Currently, I am actively seeking opportunities to break into the IT or design industry.</div>';
                 break;
             case 'projects':
-                output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'Projects:</br><ul><li>DangerLine WIP: Description of Project A</li><li>Basic WIP: Description of Project B</li></ul></div>';
+                output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'projects:</br><ul><li>DangerLine WIP: Description of Project A</li><li>Basic WIP: Description of Project B</li></ul></div>';
                 break;
             case 'services':
                 output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'services:</br><ul><li>Web Design</li><li>Graphic Design</li><li>Game Design</li><li>Sound Design</li></ul></div>';
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'contact: davislang303@gmail.com</div>';
                 break;
             case 'help':
-                output.innerHTML += '<div class="command-output">' + initialPrompt + 'list of available commands:</br><ul><li>about</li><li>services</li><li>skills</li><li>contact</li><li>episode - random simpsons episode</li><li>clear</li></ul></div>';
+                output.innerHTML += '<div class="command-output">' + initialPrompt + 'list of available commands:</br><ul><li>about</li><li>services</li><li>skills</li<li>project</li>><li>contact</li><li>episode - random simpsons episode</li><li>clear</li></ul></div>';
                 break;
             case 'episode': // New case for displaying a random Simpsons episode
                 const randomIndex = Math.floor(Math.random() * simpsonsEpisodes.length);
