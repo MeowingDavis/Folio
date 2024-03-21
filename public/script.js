@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function handleCommand(command) {
         switch (command) {
             case 'about':
-                output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'about I am a Designer, Developer, and computer enthusiast based in Melbourne, Australia. I pursued digital media at RMIT, specializing in frontend development, computer architecture, and game design. As a side subject in my final year, I elected to study cybersecurity. Currently, I am actively seeking opportunities to break into the IT or design industry.</div>';
+                output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'about I am a Designer, Developer, and computer enthusiast based in Melbourne, Australia. I pursued digital media at RMIT, specialising in frontend development, computer architecture and as a side subject in my final year, I elected to study cybersecurity. Currently, I am actively seeking opportunities to break into the IT or design industry.</div>';
                 break;
             case 'projects':
                 output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'Projects:</br><ul><li>DangerLine WIP: Description of Project A</li><li>Basic WIP: Description of Project B</li></ul></div>';
