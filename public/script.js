@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function handleCommand(command) {
         switch (command) {
             case 'about':
-                output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'about: I am an Interactive Designer and Developer from Melbourne, Australia. I have a passion for coding, computer archetecture and music. I use the command line daily and I thought it would be fun to create a portfolio based off the linux terminal. an</div>';
+                output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'about: I am an Interactive Designer and Developer from Melbourne, Australia. I have a passion for coding, computer architecture, and music. I use the command line daily, and I thought it would be fun to create a portfolio based on the Linux terminal.</div>';
                 break;
             case 'projects':
                 output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'Projects:</br><ul><li>DangerLine WIP: Description of Project A</li><li>Basic WIP: Description of Project B</li></ul></div>';
