@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function handleCommand(command) {
         switch (command) {
             case 'about':
-                output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'about: I am a <b>Designer, Developer,</b> and computer enthusiast based in <b>Melbourne,</b> Australia. I studied Digital Media at RMIT, specialising in frontend development, computer architecture and as a side subject in my final year, I elected to study cybersecurity. Currently, I am actively seeking opportunities to break into the IT or design industry.</div>';
+                output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'about: I am a <b>Designer, Developer,</b> and <b>computer enthusiast</b> based in <b>Melbourne, Australia.</b> I studied Digital Media at RMIT, specialising in frontend development, computer architecture and as a side subject in my final year, I elected to study cybersecurity. Currently, I am actively seeking opportunities to break into the IT or design industry.</div>';
                 break;
             case 'projects':
                 output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'projects:</br><ul><li><a href="">DangerLine</a> | <a href="https://dangerline.deno.dev/">Blog</a>: A first person stealth game created using unity, that heavily focuses on sound as a source of navigation.</li></ul></div>';
