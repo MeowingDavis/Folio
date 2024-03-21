@@ -1,0 +1,78 @@
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: monospace;
+    margin-top: 50px;
+    /* Adjust margin as needed */
+}
+
+.terminal {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    height: 600px;
+    /* Set a fixed height for the terminal */
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    box-shadow: -8px 9px 42px 15px rgba(0, 0, 0, 0.65);
+    -webkit-box-shadow: -8px 9px 42px 15px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: -8px 9px 42px 15px rgba(0, 0, 0, 0.65);
+}
+
+
+    .input-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .prompt {
+        color: #0f0;
+        display: inline;
+        margin-right: 5px;
+        /* Add margin between prompt and input */
+    }
+
+    .prompt.yellow {
+        color: yellow;
+        /* Yellow color for prompt */
+    }
+
+    #commandInput {
+        background-color: #222;
+        /* Match background color */
+        color: #fff;
+        /* Text color */
+        border: none;
+        /* Remove border */
+        outline: none;
+        /* Remove focus outline */
+        font-family: monospace;
+        /* Match terminal font */
+        flex-grow: 1;
+        /* Take up remaining space */
+    }
+
+    .output {
+        margin-top: 10px;
+        /* Add margin top to the output */
+    }
+
+    .command-output {
+        white-space: pre-wrap;
+        /* Preserve line breaks */
+    }
+
+    .command-output .prompt {
+        color: #0f0;
+        /* Prompt color */
+    }
+
+    .command-output ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    .command-output li {
+        margin-bottom: 5px;
+    }
