@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'contact: davislang303@gmail.com</div>';
                 break;
             case 'help':
-                output.innerHTML += '<div class="command-output">' + initialPrompt + 'list of available commands:</br><ul><li>about</li><li>services</li><li>skills</li<li>project</li>><li>contact</li><li>episode - random simpsons episode</li><li>clear</li></ul></div>';
+                output.innerHTML += '<div class="command-output">' + initialPrompt + 'list of available commands:</br><ul><li>about</li><li>services</li><li>skills</li><li>project</li><li>contact</li><li>episode - random simpsons episode</li><li>clear</li></ul></div>';
                 break;
             case 'episode': // New case for displaying a random Simpsons episode
                 const randomIndex = Math.floor(Math.random() * simpsonsEpisodes.length);
