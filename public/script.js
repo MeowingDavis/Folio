@@ -75,10 +75,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'about: I am a Designer, Developer, and computer enthusiast based in Melbourne, Australia. I studied Digital Media at RMIT, specialising in frontend development, computer architecture and as a side subject in my final year, I elected to study cybersecurity. Currently, I am actively seeking opportunities to break into the IT or design industry.</div>';
                 break;
             case 'projects':
-                output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'projects:</br><ul><li><a href="https://dangerline.deno.dev/">DangerLine</a>: A first person stealth game created using unity, that heavily focuses on sound as a source of navigation.</li><li>Basic WIP: Description of Project B</li></ul></div>';
+                output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'projects:</br><ul><li><a href="https://dangerline.deno.dev/">DangerLine Blog</a>|<a>Play here</a> A first person stealth game created using unity, that heavily focuses on sound as a source of navigation.</li><li>Basic WIP: Description of Project B</li></ul></div>';
                 break;
             case 'services':
-                output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'services:</br><ul><li>Web Design</li><li>Graphic Design</li><li>Game Design</li><li>Sound Design</li></ul></div>';
+                output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'services:</br><ul><li>Web Design and Development</li><li>Graphic Design</li><li>Game Design</li><li>Sound Design</li></ul></div>';
                 break;
             case 'skills':
                 output.innerHTML += '<div class="command-output">' + initialPrompt + 'skills:</br><ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>C#</li><li>React</li><li>Bootstrap</li><li>Digital Media<li>Sound Design</li><li>Linux</li><li>Computer Architecture</div>';
