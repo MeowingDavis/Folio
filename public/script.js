@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'services:</br><ul><li>Web Design and Development</li><li>Graphic Design</li><li>Game Design</li><li>Sound Design</li></ul></div>';
                 break;
             case 'skills':
-                output.innerHTML += '<div class="command-output">' + initialPrompt + 'skills:</br><ul><li>HTML</li<li>Adobe Suite</li>><li>CSS</li><li>JavaScript</li><li>C#</li><li>Bootstrap</li><li>Sound Design</li><li>Computer Architecture</div>';
+                output.innerHTML += '<div class="command-output">' + initialPrompt + 'skills:</br><ul><li>HTML</li><li>Adobe Suite</li>><li>CSS</li><li>JavaScript</li><li>C#</li><li>Bootstrap</li><li>Sound Design</li><li>Computer Architecture</div>';
                 break;
             case 'contact':
                 output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'contact: davislang303@gmail.com</div>';
