@@ -75,13 +75,13 @@ document.addEventListener('DOMContentLoaded', function () {
                 output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'about: <i>I am a designer, developer, and computer enthusiast based in Melbourne, Australia. My passion for design and interaction stems from audio. I studied a diploma of Sound Production when I first left high school in 2014. Through a journey of discovering ways to make interactive audio experiences, my passion for design and computers blossomed. After some self-learning and discovery, I decided to study Digital Media at RMIT, focusing on frontend web development, game design, cybersecurity, and computer architecture. Additionally, in my final year, I undertook a major project called DangerLine. Currently, I am actively creating projects while seeking opportunities to break into the IT or design industry.</i></div>';
                 break;
             case 'projects':
-                output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'projects:</br><ul><li><a href="">DangerLine</a> | <a href="https://dangerline.deno.dev/">Blog</a>: A first person stealth game created using unity, that heavily focuses on sound as a source of navigation.</li></ul></div>';
+                output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'projects:</br><ul><li><a href="">DangerLine</a> | <a href="https://dangerline.deno.dev/">Blog</a>: (Work in progress) A first person stealth game created using unity, that heavily focuses on sound as a source of navigation. </li></ul></div>';
                 break;
             case 'services':
                 output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'services:</br><ul><li>Web Design and Development</li><li>Graphic Design</li><li>Game Design</li><li>Sound Design</li></ul></div>';
                 break;
             case 'skills':
-                output.innerHTML += '<div class="command-output">' + initialPrompt + 'skills:</br><ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>C#</li><li>Bootstrap</li><li>Sound Design</li><li>Computer Architecture</div>';
+                output.innerHTML += '<div class="command-output">' + initialPrompt + 'skills:</br><ul><li>HTML</li<li>Adobe Suite</li>><li>CSS</li><li>JavaScript</li><li>C#</li><li>Bootstrap</li><li>Sound Design</li><li>Computer Architecture</div>';
                 break;
             case 'contact':
                 output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'contact: davislang303@gmail.com</div>';
