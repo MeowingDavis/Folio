@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
         "S49E01 - Homer's Christmas Carol",
         "S50E01 - Springfield is History"
     ];
-    
+
 
 
     input.addEventListener('keydown', function (event) {
@@ -74,18 +74,13 @@ document.addEventListener('DOMContentLoaded', function () {
             case 'about':
                 output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'about: <i>I am a designer, developer, and computer enthusiast based in Melbourne, Australia. My passion for design and interaction stems from audio. I studied a diploma of Sound Production when I first left high school in 2014. Through a journey of discovering ways to make interactive audio experiences, my passion for design and computers blossomed. After some self-learning and discovery, I decided to study Digital Media at RMIT, focusing on frontend web development, game design, cybersecurity, and computer architecture. Additionally, in my final year, I undertook a major project called DangerLine. Currently, I am actively creating projects while seeking opportunities to break into the IT or design industry.</i></div>';
                 break;
-                case 'projects':
-    output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'projects:</br><ul>' +
-        '<li><a href="https://dangerline.deno.dev/" target="_blank">DangerLine</a>: A first-person stealth game where sound and lighting guide the player through a heavily surveilled cityscape.</li>' +
-        '<li><a href="https://www.instagram.com/reel/C6Kd9CQveEB/" target="_blank">Circuit Breaker</a>: A series of promotional videos for a Melbourne-based independent music label.</li>' +
-        '<li><a href="https://www.youtube.com/embed/2Bp84eF3eF4" target="_blank">Substance</a>: Sound design collaboration with animator Andersen Chandradinata, exploring sensory overload and emotional effects.</li>' +
-        '<li><a href="https://www.youtube.com/embed/dse4K9IaDHU" target="_blank">Caffeinism</a>: Sound design for an animated short film about the surreal effects of excessive caffeine consumption. Finalist in multiple film festivals.</li>' +
-        '<li><a href="https://www.youtube.com/embed/wc1uJaDuJ0A" target="_blank">Seasons</a>: A sound design project exploring the emotional shifts experienced across changing seasons.</li>' +
-        '<li><a href="https://www.spatial.io/s/Connection-Verified-62ff43e15786e50001874dde?share=4966421395659621233" target="_blank">Connection Verified Virtual Gallery</a>: Curated a virtual gallery featuring personal digital artworks.</li>' +
-        '<li>Menace: Performed music at an art show hosted by Menace.</li>' +
-        '<li>Proto_topia: Organised a digital media showcase and exhibited an early prototype of <em>DangerLine</em>.</li>' +
-        '</ul></div>';
-    break;
+            case 'projects':
+                output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'projects:</br><ul>' +
+                    '<li><a href="#" target="_blank">Yummy Tummy (W.I.P)</a>: recipe website.</li>' +
+                    '<li><a href="#" target="_blank">Bored</a>: Online JavaScript Games.</li>' +
+                    '<li><a href="https://dangerline.deno.dev/" target="_blank">DangerLine</a>: A first-person stealth game where sound and lighting guide the player through a heavily surveilled cityscape.</li>' +
+                    '</ul></div>';
+                break;
 
             case 'services':
                 output.innerHTML += '<div class="command-output">' + prompt.outerHTML + 'services:</br><ul><li>Web Design and Development</li><li>Graphic Design</li><li>Game Design</li><li>Sound Design</li></ul></div>';
