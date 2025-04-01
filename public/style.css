@@ -1,3 +1,12 @@
+:root {
+    --van-dyke: #4E3D42;
+    --jet: #3E363F;
+    --dim-grey: #6D6466;
+    --ash-grey: #9F9F92;
+    --tea-green: #C9D5B5;
+    --timbergreen: #E3DBDB;
+}
+
 body {
     background-color: #222;
     color: #fff;
@@ -76,3 +85,48 @@ body {
     .command-output li {
         margin-bottom: 5px;
     }
+
+    /* Minimal Contact Window Styling */
+.contact-window {
+    background: none;
+    border: none;
+    box-shadow: none;
+    padding: 20px;
+}
+
+.contact-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    color: var(--dim-grey);
+}
+
+.contact-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.contact-list li {
+    display: inline-block;
+}
+
+.contact-list a {
+    text-decoration: none;
+    color: var(--tea-green);
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: color 0.3s ease;
+}
+
+.contact-list a:hover {
+    color: var(--ash-grey);
+}
+
+.contact-list i {
+    font-size: 1.3rem;
+}
