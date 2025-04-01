@@ -59,15 +59,17 @@ document.addEventListener('DOMContentLoaded', function () {
     ];
 
 
-
     input.addEventListener('keydown', function (event) {
-        input.setPointerCapture(event.pointerId);
+        // Remove this line:
+        // input.setPointerCapture(event.pointerId);
+    
         if (event.key === 'Enter') {
             const command = input.value.trim().toLowerCase();
             input.value = '';
             handleCommand(command);
         }
     });
+    
 
     function handleCommand(command) {
         switch (command) {
